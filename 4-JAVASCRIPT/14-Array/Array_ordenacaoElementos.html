@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array - Ordenação</title>
+    <script>
+
+        /*
+        var lista_frutas = Array()
+
+        lista_frutas[0] = 'maçã'
+        lista_frutas[1] = 'uva'
+        lista_frutas[2] = 'banana'
+        lista_frutas[3] = 'morango'
+        
+        console.log(lista_frutas.sort())
+
+        // utilizamos apenas o ".sort quando queremos organizar por strings/ palavras, pois o padrão é seguir  a ordenação alfanumérica"
+       */
+
+        var lista_numeros = Array()
+
+        lista_numeros[0] = '12'
+        lista_numeros[1] = '40'
+        lista_numeros[2] = '5'
+        lista_numeros[3] = '30'
+        lista_numeros[4] = '50'
+        lista_numeros[5] = '35'
+        
+
+        // no sorte pode ser tanto Number quanto Strings
+
+        /*
+        lista_numeros[0] = 12
+        lista_numeros[1] = 40
+        lista_numeros[2] = 5
+        lista_numeros[3] = 30
+        lista_numeros[4] = 50
+        lista_numeros[5] = 35
+        */
+
+        console.log(lista_numeros.sort(ordenaNumeros))
+
+        function ordenaNumeros(a,b) {
+            return a - b
+            //valor menor que 0 = a antes b
+            //valor maior que 0 = b antes de a
+            // == a ordem é mantida
+            // caso dê um erro, a ordenação será indefinida(teremos um erro) caso seja tipo "abacaxi"
+        }
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
