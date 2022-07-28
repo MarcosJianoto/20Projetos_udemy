@@ -1,0 +1,119 @@
+*{
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    font: 900;
+}
+
+/* Cabecalho*/
+
+#cabecalho{
+    height: 100px;
+    background: #F7B600;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+#menu{
+    font-size: 16px;
+    padding:20px;
+    margin: 20px;
+}
+
+#blog{
+    color: #fff;
+}
+
+/* body */
+
+body{
+    background: #DDDDDD;
+}
+
+/* Menu*/
+
+a{
+    color: #F7B600;
+    text-decoration: none;
+    bottom: 15px;
+}
+
+a:hover{
+    border-radius: 3px;
+    color: #F7B600;
+}
+
+#menu a{
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+#menu a:hover{
+    background: white;
+    border-radius: 3px;
+    color: #F7B600;
+}
+
+
+
+/* Principal */
+
+#principal{
+    width:920px;
+    margin: 0px auto;
+}
+
+#conteudo-central{
+    width: 650px;
+    background: white;
+    margin-top:20px;
+    margin-right:5px;
+    padding: 10px;
+
+    float: left;
+}
+
+#conteudo-lateral{
+    width: 200px;
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left:5px;
+    float: right;
+}
+
+.data{
+    margin-bottom:10px;
+}
+/* Rodape */
+
+#rodape{
+    background: #cccccc;
+    padding: 20px;
+    text-align: center;
+    font:normal;
+    clear: both;
+}
+
+h2{
+    color:#F7B600;
+    font-size: 20px;
+}
+
+h3{
+    color:black;
+    background:#F7B600;
+    padding: 5px;
+}
+
+.p-lateral{
+    font-size:0.8em;
+    padding: 10px;
+}
